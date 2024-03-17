@@ -1,0 +1,605 @@
+.formcon{
+  width: 80vw;
+  height: 95vh;
+  border-radius: 10px;
+  display: flex;
+  border: 1px solid black;
+/*  background-color: #FAE7C9;*/
+}
+
+.feedback-btn{
+	padding: 15px;
+	bottom: 10px;
+	right: 14px;
+	position: fixed;
+	border: 1px solid #3d2912;
+	background-color: #3d2912;
+  color: white;
+  border-radius: 10px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #FFF6E9;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.vbody{
+  display: inline-block;
+}
+
+.img{
+  width: 40%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid black;
+  background-image: url(../media/signupstudyimg.jpg);
+  background-size: cover;
+}
+
+label{
+  display: block;
+  font-size: large;
+  margin-bottom: 3px;
+}
+
+.sup{
+  width: 60%;
+  padding-left: 20px;
+}
+
+.sup h1{
+  text-align: center;
+}
+
+input{
+  width: 80%;
+  height: 4vh;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"]{
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 5vh;
+}
+
+input[type="password"]{
+  display: block;
+}
+
+.cancel{
+  width: 20%;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 5vh;
+}
+
+@media (min-width: 768px){
+  /*.formcon{
+     display: flex;
+    flex-direction: column;
+   } */
+  
+
+  .img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .sup{
+    width: 100%;
+  }
+
+  label{
+    color: black;
+  }
+}
+
+.remember-me {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.remember-me input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 3px;
+  border: 2px solid black;
+
+}
+
+.remember-me input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.back{
+  left: 10px;
+  /* left: 5px; */
+  position: fixed;
+}
+
+.container{
+	width: 100%;
+	height: 30vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background: url(books.jpg);
+}
+
+.navbar ul{
+	margin-left: 0px;
+}
+.navbar i{
+	font-size: 18px;
+}
+
+.navbar h1 a{
+	position: absolute;
+	top: 40px;
+}
+
+.navbar h1{
+	margin: 10px;
+	/* padding-bottom: 50px; */
+	padding-left: 20px;
+	font-size: 35px;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 19px;
+	margin-right: 20px;
+	margin-bottom: 11px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #3d2912;
+}
+.navbar h1 a{
+	padding-bottom: 18px;
+	text-decoration: none;
+	list-style: none;
+	color: #3d2912;
+}
+
+.navbar{
+	width: 100%;
+	margin: auto;
+	padding: 34px 0;
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+}
+
+
+.btn{
+	padding-left: 85px;
+}
+
+footer{
+  width: 100%;
+  background:  #F1DEC9;
+  min-height: 100px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40vh;
+ }
+
+footer .social_icon,
+.menu{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+footer .social_icon li,
+footer .menu li {
+  list-style: none;
+}
+
+footer .social_icon li a{
+  font-size:2em;
+  color: #65451F;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .social_icon li a:hover{
+transform: translateY(-10px);
+}
+
+footer .menu li a{
+  font-size:1.2em;
+  color: #65451F;
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+footer .menu li a:hover
+{
+  opacity: 1;
+}
+
+footer p{
+  color: #65451F;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+.feedback h1 {
+  font-size: 37px;
+/* margin: 30px; */
+  padding-top: 50px;
+padding-bottom: 20px;
+  text-align: center;
+  color: #65451F;
+}
+
+.feedback h1 {
+  font-size: 37px;
+/* margin: 30px; */
+  padding-top: 40px;
+padding-bottom: 10px;
+  text-align: center;
+  color: #65451F;
+}
+
+
+.boxfeed h1{
+  padding-bottom: 10px;
+  padding-top: 35px;
+	text-align: center;
+	color: #65451F;
+}
+#verys{
+  background: #F1DEC9;
+}
+.textbackground h5{
+  padding-bottom: 10px;
+}
+.textbackground{
+  text-align: center;
+	color: #65451F;
+  padding: 5px;
+  background-color: #F1DEC9;
+}
+.textbackground i{
+  padding-right: 10px;
+  padding-bottom: 17px;
+}
+.textbox h3{
+  color: #65451F;
+}
+#onetextbox{
+  width: 99%;
+}
+/* .textbox{
+  padding: 5px;
+  background: #F1DEC9;
+} */
+/* .donebtn{
+  padding-top: 10px;
+  background-color: #F1DEC9;
+  height: 60px;
+} */
+th{
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 50px;
+  color: #65451F;
+}
+input[type=checkbox]{
+  accent-color: #65451F;
+}
+
+.boxfeedback{
+  display: block;
+}
+
+table{
+  padding: 10px;
+	height: 60%;
+	font-size: larger;
+}
+
+/* .donebtn{
+} */
+
+.donebtn button{
+  background-color: #B0926A;
+  width: 60px;
+  height: 50px;
+  border-radius: 5px;
+  position: absolute;
+  left: 10px;
+}
+
+.tbody{
+  display: inline-block;
+}
+
+.lineee{
+  width: 60%;
+  border: 3px solid #F1DEC9;
+}
+
+.tipsContainer{
+  padding: 20px;
+  align-items: center;
+}
+
+.threetips{
+  padding-bottom: 55px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tipfour, .tipfive, .tipsix{
+  width: 20vw;
+}
+
+.tipseven, .tipseight, .tipnine{
+  padding: 30px;
+}
+
+.numberone{
+  margin-top: 35px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #F1DEC9;
+  height: 25px;
+  width: 25px;
+}
+
+.fa-1, .fa-2, .fa-3{
+  color: #65451F;
+  padding: 7px;
+}
+
+.tipsContainer h1{
+  padding-top: 55px;
+  text-align: center;
+  color: #65451F;
+}
+
+.tipsContainer h4{
+  text-align: center;
+  color: #65451F;
+}
+
+.tipsContainer h2, .tipsContainer p{
+  color: #65451F;
+}
+
+/* pictures for tips */
+.picturesfor{
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.picturefour{
+  height: 90vh;
+  width: 90vw;
+}
+/* .pictureone, .picturetwo, .picturethree{
+} */
+
+
+/* table */
+.tablegraph{
+  margin-top: 60px;
+  border: 1px solid gray;
+}
+.tr{
+  border: 1px solid gray;
+}
+
+
+
+
+
+.abody{
+  display: block;
+}
+
+.studies{
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 2%;
+  
+}
+
+.webreason h1{
+  text-align: center;
+}
+
+.webreason p{
+  width: 100%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.webreason{
+  border-bottom: 1px solid black;
+}
+
+.how h1{
+  text-align: center;
+}
+
+.how p{
+  width: 100%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.how{
+  border-bottom: 1px solid black;
+}
+
+.errors h1{
+  text-align: center;
+}
+
+.errors p{
+  width: 100%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.gpmembers h1{
+  text-align: center;
+}
+
+.gpmembers{
+  width: 100%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.p{
+  text-align: center;
+}
+
+.gpmembers{
+  border-bottom: 1px solid black;
+}
+
+.abody{
+  overflow-x: hidden;
+  width: 95vw;
+}
+
+.ban{
+  background: url(../media/books.jpg)
+}
+
+.banandtext{
+  display: flex;
+  height: 60vh;
+  border-radius: 7px;
+}
+
+.textss{
+  width: 50%;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.ban{
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid black;
+  border-radius: 7px;
+}
+
+.textss h1{
+  text-align: center;
+}
+
+.textss p{
+  margin-top: 50px;
+}
+
+.gpmembox{
+  display: flex;
+  width: 100%;
+}
+
+.pic{
+  width:50%;
+}
+
+.text{
+  width: 50%;
+}
+
+.gpmembox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.gpmembox h1{
+  text-align: center;
+}
+
+.gpmemtext{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  text-align: center;
+  width: 25%;
+}
+
+.pic_mmtk{
+  text-align: center;
+  margin-left: 6%;
+}
+
+video{
+  width: 40%;
+}
+
+.pic_tsl,.pic_mmtk{
+  margin-left: 6%;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+/* videopage */
+.Explanation{
+  color: #65451F;
+}
+.mathematicssection, .englishsection{
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+}
+.mathsheading, .engheading{
+  text-align: center;
+}

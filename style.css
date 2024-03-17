@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left{
+    width: 5vw;
+}
+
+
+.modenlogo{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#expmore{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    width: 14vw;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    position: absolute;
+    right: 43%;
+    top: 133vh;
+}
+
+.logo{
+    background: url(../media/The_nerds-removebg-preview.png);
+    margin-left: 5px;
+    background-size: cover;
+    height: 41.2px;
+    width: 41.2px;
+    display: inline-block;
+}
+
+.bannerbottom{
+    height: 93vh;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10vh;
+    text-align: center;
+    margin-right: 50vh;
+}
+
+.bannerbottom2{
+    height: 93vh;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20vh;
+    text-align: center;
+    margin-right: 80%;
+}
+
+.bannerlink{
+    margin-top: 50vh;
+    margin-right: 60%;
+}
+
+.bannerlink h3{
+    padding: 10px;
+    background-color: #dcdcd8;
+    border-radius: 5px;
+}
+
+.bannerlink a{
+    background-color:#dcdcd8;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #65451F;
+    padding: 5px;
+    border: 1px solid #65451F;
+}
+
+.bannerlink a:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.8s ease-in-out;
+    color: #65451F;
+    background-color: #F1DEC9;
+}
+
+#expmore{
+    color: #65451F;
+    border: 1px solid #65451F;
+}
+
+#expmore:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.8s ease-in-out;
+    color: #65451F;
+    background-color: #F1DEC9;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.icons i{
+    font-size: 70px;
+    color: #6b3d1a ;
+}
+
+.banner, .main{
+    font-size: x-large;
+}
+
+.studies{
+    text-align: center;
+}
+
+.banner{
+    height:100vh;
+    background-image: url(../media/landingbanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wts{
+    text-align: center;
+    margin-top: 0vh;
+}
+
+/* .top{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.bottom{
+    width: 100%;
+    height: 90%;
+    background-color: yellow;
+} */
+
+.topic h1{
+    text-align: center;
+}
+
+.text{
+    padding-top: 2%;
+    width: 100%;
+    height: 30%;
+    /* border: 2px solid black; */
+    border-style: dotted;
+    padding-left: 1%;
+}
+
+.text{
+    display: flex;
+    /* flex-direction: column; */
+    border: none;
+    text-align: center;
+}
+
+
+body{
+    background-color: #FFF6E9;
+    color: #65451F;
+}
+
+.benefits{
+    height: 35vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+}
+
+.StudyTips{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px dotted black; */
+}
+
+.StudyTips h1{
+    text-align: center;
+}
+
+.icons{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: calc(80vh / 2 - 15vh);
+}
+
+
+footer{
+    width: 100%;
+    height: 60vh;
+    /* border: 2px dotted black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    text-align: center;
+    padding: 15px;
+    background: #F1DEC9;
+    text-align: center;
+}
+
+.benefits span{
+    font-size: x-large;
+}
+
+.featuresH{
+    width: 100%;
+    height: 100vh;
+}
+
+.iconContainerH{
+    width: 100%;
+    height: 40vh;
+}
+
+/* .footerinfo{
+    display: block;
+} */
+
+.iconlabels{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconlabels span{
+    text-align: center;
+    font-size: x-large;
+}
+
+.iconandlabel{
+    margin-bottom: 10%;
+}
+
+.explore{
+    border: #65451F;
+    height: 2%;
+    width: 10%;
+    background-color: #422b0e;
+}
+
+
+
+@keyframes wave{
+    from{
+        left: 0px;
+    }
+
+    to{
+        right: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .pic, .text {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .iconContainer {
+        flex-wrap: wrap; 
+        margin-top: 20px;
+        width: 50%;
+    }
+    .icons {
+        width: 90%; 
+    }
+
+    .getstartedbutton{
+        width: 14vw;
+    }
+
+    .banner{
+        background-position: center;
+    }
+
+    .bannerlink,.bannerbottom{
+        margin-bottom: 26%;
+    }
+
+    .text{
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Cappunico{
+        padding-bottom: 99%;
+        font-size: xx-large;
+    }
+
+    .benefits span{
+        text-align: center;
+    }
+
+    .benefits{
+        padding-right: 5px;
+        padding-left: 5px;
+        height: 70vh;
+    }
+
+    .StudyTips{
+        height: 110vh;
+    }
+
+    .container{
+        flex-direction: column;
+
+    }
+
+    .footer{
+        height: 40vh;
+    }
+
+    .iconlabels{
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+    }
+
+    .iconandlabel{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px){
+    .StudyTips{
+        height: 60vh;
+    }
+
+
+    .Cappunico{
+        padding-bottom: 64%;
+        font-size: xx-large;
+    }
+
+
+    .iconContainer{
+        margin-top: 5vh;
+    }
+
+    .container{
+        height: 90%;
+    }
+
+    .main{
+        height: 600px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .iconContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .icons {
+        width: 45%;
+        margin: 10px;
+    }
+
+
+}
+
+/* .modecontainer {
+    width: 101px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+} */
+
+.warm,.cool {
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.cool:hover,.warm:hover {
+    border: 1px solid aqua;
+    transition: 1s;
+}
+
+.cold {
+    background-color: #cdf5fd;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+}
+ 
+#c{
+    height: 40vw;
+    width: 98vw;
+}
+
+.h1,h2{
+    text-align: center;
+    font-size: larger;
+}
+
+.main{
+    height: 300px;
+}
+
+
